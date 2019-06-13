@@ -55,6 +55,7 @@ public class GuessMovie {
                 System.out.print("Your wrong letters (" + i + "): ");
                 System.out.println(game.getWrongLetters());
                 System.out.println("Try again. You can make " + (10-i) + " mistakes yet");
+                System.out.print(game.getCharArrayGuess());
                 System.out.println();
 
             }
