@@ -37,7 +37,6 @@ public class MovieGame {
 
         int randomLine = (int)(Math.random() * countLine);
         String randomMovie = Movies.get(randomLine);
-        System.out.println(randomMovie);
 
         this.choosenMovie = randomMovie;
     }
@@ -51,7 +50,6 @@ public class MovieGame {
                 charArrayGuess[i] = '*';
             }
         }
-        System.out.println(charArrayGuess);
 
         this.charArrayGuess = charArrayGuess;
 
